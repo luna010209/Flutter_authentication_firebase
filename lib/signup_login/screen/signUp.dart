@@ -61,6 +61,7 @@ class _SignupScreenState extends State<SignupScreen> {
                   icon: Icons.email,
                 ),
                 InputFields(
+                  isPass: true,
                   textEditingController: passwordController,
                   hintText: "Input your password",
                   icon: Icons.key,
